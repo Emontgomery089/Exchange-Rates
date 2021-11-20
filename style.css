@@ -1,0 +1,46 @@
+
+body {
+    background-color: #18214a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 15px 'Courier New', sans-serif, Helvetica, Arial, sans-serif;
+}
+
+
+
+#main {
+    background-color: #526394;
+    width: 80%;
+    height: 100%;
+    margin: 50px;
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+
+}
+
+#inputForm{
+    display: flex;
+    justify-content:  center;
+    order: 1;
+}
+
+#render{
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    flex-flow: column-wrap;
+    order: 2;
+
+}
+
+#credit{
+    display: flex;
+    align-self: flex-end;
+}
+
+
